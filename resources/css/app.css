@@ -1,0 +1,30 @@
+.form-layout {
+    position: relative;
+    width: 30%;
+}
+.text-descr {
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: .5%;
+}
+.bg-error-color {
+    background: pink;
+}
+
+.input-border {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: unset;
+}
+
+.input-border:focus,
+.input-text:focus {
+    box-shadow: unset;
+    border-color: black;
+    background-color: #f7f7f7;
+}
+
+.border-btn {
+    border: 1px dashed black;
+}
